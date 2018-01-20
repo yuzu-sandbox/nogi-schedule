@@ -1,0 +1,15 @@
+{
+  "name": "nogi-schedule",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "repository": "git@github.com:yuzu-sandbox/nogi-schedule.git",
+  "author": "yuzu <snowboard.441@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
