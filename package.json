@@ -1,16 +1,21 @@
 {
   "name": "nogi-schedule",
   "version": "1.1.0",
-  "main": "src/main.js",
+  "main": "src/main.cjs",
   "repository": "git@github.com:yuzu-sandbox/nogi-schedule.git",
-  "author": "yuzu <snowboard.441@gmail.com>",
+  "author": "yuzu <s.yuzu441@gmail.com>",
   "license": "MIT",
+  "prettier": "@yuzu441/prettier-config",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.cjs"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.10"
+    "node-fetch": "2"
   },
-  "typings": "index.d.ts"
+  "typings": "index.d.ts",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "@yuzu441/prettier-config": "^1.0.2",
+    "prettier": "^2.5.1"
+  }
 }
